@@ -1,0 +1,59 @@
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #666666;
+	margin: 0; /* zero the margin and padding to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColFixCtr #container {
+	width: 780px;  /* using 20px less than a full 800px width avoids a 800x600 horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+table {      
+border: 1px solid #BFBAB0;     
+background-color: #FFFFFF;    
+}
+td {
+background-color: #F2EFE9;
+}
+td.bordered {
+background-color: #333333;
+border: 1px solid #BFBAB0;
+font-weight: bold;
+color: white;
+}
+p { clear: both; }
+.submit { margin-left: 12em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+label.error { 
+  clear: both;
+  color: red; 
+  padding-left: .5em; 
+  vertical-align: top; }
+p { clear: both; }
+div.ui-datepicker{
+  font-size:10px;
+}
+div #myDialog, #myDialog2 {
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  font-size:12px;
+  text-align:left;
+  }
+input.btn {
+  color:#000;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  border: 1px solid;
+  border-color: #696 #363 #363 #696;
+  filter:progid:DXImageTransform.Microsoft.Gradient
+  (GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+}
